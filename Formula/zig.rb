@@ -1,8 +1,8 @@
 class Zig < Formula
   desc "Programming language designed for robustness, optimality, and clarity"
   homepage "http://ziglang.org/"
-  url "https://s3.amazonaws.com/ziglang.org/download/0.1.1/zig-0.1.1.tar.xz"
-  sha256 "a160d14aecebead2f8c574b0dd687cdfecc53d149d521a17b89b629d8b558c94"
+  url "https://github.com/zig-lang/zig/archive/0.1.1.tar.gz"
+  sha256 "fabbfcb0bdb08539d9d8e8e1801d20f25cb0025af75ac996f626bb5e528e71f1"
 
   depends_on "cmake" => :build
   depends_on "llvm"
